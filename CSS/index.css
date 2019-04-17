@@ -192,7 +192,8 @@ h4{margin: 0%}
 }
 .A_login-form .A_group .A_label{
 	color:#aaa;
-	font-size:12px;
+	font-size:15px;
+	padding: 5px;
 }
 .A_login-form .A_group .A_button{
 	background:#1161ee;
@@ -242,14 +243,14 @@ h4{margin: 0%}
 }
 
 a.A_member:visited{
-	color:orangered;
+	color:#757575;
 }
 a.A_member:link{
-	color:pink;
+	color:#FFFFFF;
 }
 a.A_member:hover, a.A_member:active {
-	color:red;
-	
+	color:#212121;
+}
 
 .A_hr{
 	height:2px;
@@ -258,6 +259,6 @@ a.A_member:hover, a.A_member:active {
 }
 .A_foot-lnk{
 	text-align:center;
-	color: red;
+	font-size: 20px;
 }
 /* هنا يرقد حزلقوزم */
