@@ -254,11 +254,12 @@ a.A_member:hover, a.A_member:active {
 
 .A_hr{
 	height:2px;
-	margin:60px 0 50px 0;
+	margin:30px 0 50px 0;
 	background:rgba(255,255,255,.2);
 }
 .A_foot-lnk{
 	text-align:center;
-	font-size: 20px;
+	font-size: 15px;
 }
+
 /* هنا يرقد حزلقوزم */
