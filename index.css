@@ -1,0 +1,112 @@
+/* CSS Document */
+body{
+	background-color: #4F5051;
+	   margin-right: 0;
+	   padding-right: 0;
+	   margin-top: 0;
+	   margin-left: 0;
+   }
+   .topnav{
+	   overflow:hidden;
+	   background-color: #333;
+	   list-style: none;
+	   margin-right: 0;
+	   font-weight: bold;
+	   width:100%;
+   }
+   .topnav .active{
+	   background-color: limegreen;
+   }
+   .topnav a{
+	   float:left;
+	   color:#F2F2F2;
+	   text-align: center;
+	   padding: 14px 16px;
+	   text-decoration: none;
+	   font-size: 17px;
+   }
+   .topnav a:hover{
+	   background-color: #F98D03;
+	   color:black;
+   }
+   
+   #main{	
+	   
+	   background-repeat: no-repeat;
+	   position: fixed;
+	   left:100;
+	   width: 100%;
+	   height:100%;
+	   margin-right: 0;
+	   margin-left: 0;
+	   background-size: cover;
+   }
+   .content{
+	   position: absolute;
+	   margin:auto;
+	bottom: 50%;
+	   width: 100%;
+	   color: #F2F2F2;
+	   font-family: "alex-brush";
+	   font-style: italic;
+	   font-size: 30px;
+	   text-align: center;
+   }
+   .content input[type=submit]{
+	width: 5%;
+	background-color: black;
+	color: white;
+	padding-left: auto;
+	padding-right:auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+   }
+	.content input[type=text]{
+		width: 20%;
+ 	    padding: 12px 20px;
+		margin-right: auto;
+		margin-left: auto;
+ 	    display: block;
+  		border: 1px solid #ccc;
+  		border-radius: 4px;
+  		box-sizing: border-box;
+	}
+   #backgroundimage{
+	   background-image: url("../Media/scuffedstatic_red_1920x1234.jpg");
+	   background-repeat: no-repeat;
+	   position: fixed;
+	   top:100;
+	   left:100;
+	   width: 100%;
+	   height:100%;
+	   margin-bottom: 100;
+	   margin-right: 0;
+	   margin-left: 0;
+	   background-size: cover;
+
+   }
+h1{
+	margin-bottom: 10px;
+}
+.decribe{
+	border-radius: 25px;
+    border: 2px solid orange;
+  	padding: 10px; 
+  	width: 200px;
+	 color:white;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.describe h1{
+	margin-top:0;
+}
+h5{
+	margin: 0%;
+	color: limegreen;
+}
+
+h4{margin: 0%}
