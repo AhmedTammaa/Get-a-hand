@@ -242,14 +242,13 @@ h4{margin: 0%}
 	transform:scale(1) rotate(-45deg);
 }
 
-a.A_member:visited{
-	color:#757575;
-}
-a.A_member:link{
+
+a.A_member:visited, a.A_member:link{
 	color:#FFFFFF;
 }
+
 a.A_member:hover, a.A_member:active {
-	color:#212121;
+	color:#BDBDBD;
 }
 
 .A_hr{
