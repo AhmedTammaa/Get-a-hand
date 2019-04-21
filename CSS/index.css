@@ -1,4 +1,4 @@
-/* CSS Document */
+﻿/* CSS Document */
 body{
 	background-color: #4F5051;
 	   margin-right: 0;
@@ -75,8 +75,8 @@ body{
   		border-radius: 4px;
   		box-sizing: border-box;
 	}
-   #backgroundimage{
-	   background-image: url("../Media/scuffedstatic_red_1920x1234.jpg");
+   .backgroundimage{
+	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
 	   position: fixed;
 	   top:100;
