@@ -75,7 +75,7 @@ body{
   		border-radius: 4px;
   		box-sizing: border-box;
 	}
-   #backgroundimage{
+   .backgroundimage{
 	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
 	   position: fixed;
