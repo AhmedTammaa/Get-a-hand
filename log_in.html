@@ -24,17 +24,18 @@
 		
 	
 	<div class="A_main">
-			<div class="A_background"></div>
+			<div class="backgroundimage"></div>
 	<div class="A_login-html">
 		<label for="SIN" class="A_SIN">Sign In</label>
 		<div class="A_login-form">
+			<form>
 			<div class="A_sign-in-htm">
 				<div class="A_group">
-					<label for="user" class="A_label">Username</label>
+					<label for="user" class="A_label" required>Username</label>
 					<input id="user" type="text" class="A_input">
 				</div>
 				<div class="A_group">
-					<label for="pass" class="A_label">Password</label>
+					<label for="pass" class="A_label" required>Password</label>
 					<input id="pass" type="password" class="A_input" data-type="password">
 				</div>
 				<div class="A_group">
@@ -52,8 +53,10 @@
 					Do you wish to register for  <a class="A_member" href="register_worker.html">a new account</a>?
 				</div>
 			</div>
+		</form>
 		</div>
 	</div>
 	</div>
+	
 </body>
 </html>

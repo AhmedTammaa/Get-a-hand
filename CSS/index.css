@@ -118,21 +118,6 @@ h4{margin: 0%}
 	width:100%;
 	float: left;
 }
-.A_background{
-	background-image: url("../Media/bg-01.jpg");
-	background-repeat: no-repeat;
-	position: fixed;
-	top:100;
-	left:100;
-	padding-top: 100;
-	padding-bottom: 100;
-	width: 100%;
-	height:100%;
-	margin-bottom: 0;
-	margin-right: 0;
-	margin-left: 0;
-	background-size: cover;
-}
 *{box-sizing:border-box}
 
 
@@ -260,5 +245,142 @@ a.A_member:hover, a.A_member:active {
 	text-align:center;
 	font-size: 15px;
 }
+M_body {
+	background-color: #4F5051;
+	   margin-right: 0;
+	   padding-right: 0;
+	   margin-top: 0;
+	   margin-left: 0;
+  	   font-family: Arial;
+}
+M_#main{	
+	   background-image: url("../Media/bg-01.jpg");
+	   background-repeat: no-repeat;
+		box-shadow: #F98D03;
+	   position: fixed;
+	   top:100;
+	   left:100;
+	   padding-top: 100;
+	   padding-bottom: 100;
+	   width: 100%;
+	   height:100%;
+	   margin-bottom: 0;
+	   margin-right: 0;
+	   margin-left: 0;
+	   background-size: cover;
+   }
+
+M_div.header {
+	color:#F2F2F2;
+	text-align: center;
+}
+
+M_div.container {
+  width: 50%;
+  text-align:center;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 40px;
+  background-color: #D7D7D7;
+  opacity: 0.8; 
+}
+
+M_input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+M_input[type=submit] {
+  width: 20%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+M_input[type=submit]:hover {
+  background-color: black;
+}
+M_body {
+	background-color: #4F5051;
+	   margin-right: 0;
+	   padding-right: 0;
+	   margin-top: 0;
+	   margin-left: 0;
+  	   font-family: Arial;
+}
+  M_.topnav{
+	   overflow:hidden;
+	   background-color: #333;
+	   list-style: none;
+	   margin-right: 0;
+	   font-weight: bold;
+	   width:100%;
+   }
+M_#main{	
+	   background-image: url("../Media/bg-01.jpg");
+	   background-repeat: no-repeat;
+		box-shadow: #F98D03;
+	   position: fixed;
+	   top:100;
+	   left:100;
+	   padding-top: 100;
+	   padding-bottom: 100;
+	   width: 100%;
+	   height:100%;
+	   margin-bottom: 0;
+	   margin-right: 0;
+	   margin-left: 0;
+	   background-size: cover;
+   }
+
+M_div.header {
+	color:#FFFFFF;
+	text-align: center;
+}
+
+M_div.container {
+  width: 50%;
+  text-align:center;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 40px;
+  background-color: #D7D7D7;
+  opacity: 0.9; 
+}
+
+M_input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+M_input[type=submit] {
+  width: 20%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+M_input[type=submit]:hover {
+  background-color: black;
+}
+
 
 /* هنا يرقد حزلقوزم */
