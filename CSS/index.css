@@ -76,7 +76,7 @@ body{
   		box-sizing: border-box;
 	}
    #backgroundimage{
-	   background-image: url("../Media/scuffedstatic_red_1920x1234.jpg");
+	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
 	   position: fixed;
 	   top:100;
@@ -259,7 +259,6 @@ a.A_member:hover, a.A_member:active {
 .A_foot-lnk{
 	text-align:center;
 	font-size: 15px;
-	color:#FFFFFF;
 }
 
 /* هنا يرقد حزلقوزم */
