@@ -10,9 +10,10 @@ body{
 	   overflow:hidden;
 	   background-color: #333;
 	   list-style: none;
-	   margin-right: 0;
+		 margin-right: 0;
 	   font-weight: bold;
-	   width:100%;
+		 top: 0;
+		 width: 100%;
    }
    .topnav .active{
 	   background-color: limegreen;
@@ -44,7 +45,7 @@ body{
    .content{
 	   position: absolute;
 	   margin:auto;
-	bottom: 50%;
+		 bottom: 50%;
 	   width: 100%;
 	   color: #F2F2F2;
 	   font-family: "alex-brush";
@@ -78,7 +79,7 @@ body{
    .backgroundimage{
 	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
-	   position: fixed;
+		 position: fixed;
 	   top:100;
 	   left:100;
 	   width: 100%;
@@ -326,7 +327,7 @@ M_body {
 	   width:100%;
    }
 M_#main{	
-	   background-image: url("../Media/bg-01.jpg");
+	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
 		 box-shadow: #F98D03;
 	   position: fixed;
