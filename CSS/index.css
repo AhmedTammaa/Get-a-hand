@@ -254,7 +254,7 @@ M_body {
 	   margin-left: 0;
   	 font-family: Arial;
 }
-M_#main{	
+#M_main{	
 	   background-image: url("../Media/bg-01.jpg");
 	   background-repeat: no-repeat;
 		 box-shadow: #F98D03;
@@ -326,7 +326,7 @@ M_body {
 	   font-weight: bold;
 	   width:100%;
    }
-M_#main{	
+#M_main{	
 	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
 		 box-shadow: #F98D03;
