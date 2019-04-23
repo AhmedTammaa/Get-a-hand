@@ -249,18 +249,10 @@ a.A_member:hover, a.A_member:active {
 	font-size: 15px;
 	
 }
-#M_body {
-	   background-color: #4F5051;
-	   margin-right: 0;
-	   padding-right: 0;
-	   margin-top: 0;
-	   margin-left: 0;
-  	 font-family: Arial;
-}
 #M_main{	
-	   background-image: url("../Media/bg-01.jpg");
+	   background-image: url("../media/postback.jpeg");
 	   background-repeat: no-repeat;
-	   box-shadow: #F98D03;
+		box-shadow: #F98D03;
 	   position: fixed;
 	   top:100;
 	   left:100;
@@ -274,12 +266,12 @@ a.A_member:hover, a.A_member:active {
 	   background-size: cover;
    }
 
-.M_divheader {
+.M_header {
 	color:#F2F2F2;
 	text-align: center;
 }
 
-.M_divcontainer {
+.M_container {
   width: 50%;
   text-align:center;
   margin-left: auto;
@@ -289,8 +281,8 @@ a.A_member:hover, a.A_member:active {
   opacity: 0.8; 
 }
 
-#M_input[type=text], select {
-  width: 80%;
+input1[type=text], select {
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
@@ -299,8 +291,8 @@ a.A_member:hover, a.A_member:active {
   box-sizing: border-box;
 }
 
-#M_input[type=submit] {
-  width: 20%;
+input1[type=submit] {
+  width: 60%;
   background-color: black;
   color: white;
   padding: 14px 20px;
@@ -310,21 +302,13 @@ a.A_member:hover, a.A_member:active {
   cursor: pointer;
 }
 
-#M_input[type=submit]:hover {
+input1[type=submit]:hover {
   background-color: black;
 }
-#M_body {
-		background-color: #4F5051;
-	  margin-right: 0;
-	  padding-right: 0;
-	  margin-top: 0;
-	  margin-left: 0;
-  	font-family: Arial;
-}  
-#M_main{	
-	   background-image: url("../Media/postback.jpeg");
+#M_main2{	
+	   background-image: url("../media/postback.jpeg");
 	   background-repeat: no-repeat;
-		 box-shadow: #F98D03;
+		box-shadow: #F98D03;
 	   position: fixed;
 	   top:100;
 	   left:100;
@@ -338,12 +322,12 @@ a.A_member:hover, a.A_member:active {
 	   background-size: cover;
    }
 
-M_div.header {
+.M_header2 {
 	color:#FFFFFF;
 	text-align: center;
 }
 
-M_div.container {
+.M_container2 {
   width: 50%;
   text-align:center;
   margin-left: auto;
@@ -353,7 +337,7 @@ M_div.container {
   opacity: 0.9; 
 }
 
-M_input[type=text], select {
+input[type=text], select {
   width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -363,7 +347,7 @@ M_input[type=text], select {
   box-sizing: border-box;
 }
 
-M_input[type=submit] {
+input[type=submit] {
   width: 20%;
   background-color: black;
   color: white;
@@ -374,7 +358,7 @@ M_input[type=submit] {
   cursor: pointer;
 }
 
-M_input[type=submit]:hover {
+input[type=submit]:hover {
   background-color: black;
 }
 
