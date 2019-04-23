@@ -1,6 +1,6 @@
 ﻿/* CSS Document */
 body{
-		 background-color: #4F5051;
+	  background-color: #4F5051;
 	   margin-right: 0;
 	   padding-right: 0;
 	   margin-top: 0;
@@ -10,10 +10,10 @@ body{
 	   overflow:hidden;
 	   background-color: #333;
 	   list-style: none;
-		 margin-right: 0;
+	   margin-right: 0;
 	   font-weight: bold;
-		 top: 0;
-		 width: 100%;
+	   top: 0;
+	   width: 100%;
    }
    .topnav .active{
 	   background-color: #1161ee;
@@ -32,7 +32,6 @@ body{
    }
    
    #main{	
-	   
 	   background-repeat: no-repeat;
 	   position: fixed;
 	   left:100;
@@ -45,7 +44,6 @@ body{
    .content{
 	   position: absolute;
 	   margin:auto;
-		 bottom: 50%;
 	   width: 100%;
 	   color: #F2F2F2;
 	   font-family: "alex-brush";
@@ -77,40 +75,37 @@ body{
   		box-sizing: border-box;
 	}
    .backgroundimage{
-	   background-image: url("../Media/postback.jpeg");
-	   background-repeat: no-repeat;
-	   position: fixed;
-	   top:100;
-	   left:100;
-	   width: 100%;
-	   height:100%;
-	   margin-bottom: 100;
-	   margin-right: 0;
-	   margin-left: 0;
-	   background-size: cover;
-	   overflow:auto;
+    background-image: url("../Media/postback.jpeg");
+    background-repeat: no-repeat;
+    position: fixed;
+	top:100;
+	left:100;
+	width: 100%;
+	height:100%;
+	margin-bottom: 100;
+	margin-right: 0;
+	margin-left: 0;
+	background-size: cover;
+	overflow:auto;
    }
-h1{
-	margin-bottom: 10px;
-}
+h1{margin-bottom: 10px;}
 .decribe{
 	border-radius: 25px;
-  border: 2px solid orange;
-  padding: 10px; 
-  width: 200px;
+  	border: 2px solid orange;
+  	padding: 10px; 
+  	width: 200px;
 	color:white;
 	margin-top: 2%;
-	margin-left: 2%;
 }
-.describe h1{
+.decribe h1{
 	margin-top:0;
 }
-h5{
+h4{
 	margin: 0%;
 	color: limegreen;
 }
 
-h4{margin: 0%}
+h3{margin: 0%}
 
 /* Adham's css starts here. */
 .A_main{
@@ -294,7 +289,7 @@ input1[type=text], select {
 }
 
 input1[type=submit] {
-  width: 60%;
+  width: 100%;
   background-color: black;
   color: white;
   padding: 14px 20px;
@@ -350,7 +345,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 20%;
+  width: 100%;
   background-color: black;
   color: white;
   padding: 14px 20px;
@@ -384,8 +379,12 @@ input[type=submit]:hover {
 	border: 1px solid orange;
 	border-collapse: collapse;
 	color: white;
-	padding:15px;
+	padding:20px;
 	
+}
+#find{
+	width :30%;
+	height: 50%;
 }
 input[type=submit]{
 	border-radius: 2px;
@@ -396,8 +395,9 @@ input[type=submit]{
 	cursor: pointer;
 }
 input[type=search]{
-	width: 20%;
-	margin-left: 40%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom:5px;
 	border: 1px solid #ccc;
 	border-radius: 5px;

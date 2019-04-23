@@ -32,6 +32,9 @@ input.addEventListener("keyup",function(event){
                 document.getElementById("table").innerHTML+= '<tr><th>'+ n1[i]+'</th><th>'+ n2[i] + '</th><th><input type="submit" value="bid now"></th></tr>';
                 break;                
             }
+            if (i+1 == n1.length){
+                window.alert("Not found!");
+            }
                         
         }
     }
