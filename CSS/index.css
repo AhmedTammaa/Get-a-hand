@@ -55,7 +55,7 @@ body{
    }
    .content input[type=submit]{
 	width: 5%;
-	background-color: black;
+	background-color: limegreen;
 	color: white;
 	padding-left: auto;
 	padding-right:auto;
@@ -67,10 +67,10 @@ body{
 	cursor: pointer;
    }
 	.content input[type=text]{
-		  width: 20%;
+		width: 20%;
  	    padding: 12px 20px;
-		  margin-right: auto;
-		  margin-left: auto;
+		margin-right: auto;
+		margin-left: auto;
  	    display: block;
   		border: 1px solid #ccc;
   		border-radius: 4px;
@@ -79,7 +79,7 @@ body{
    .backgroundimage{
 	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
-		 position: fixed;
+	   position: fixed;
 	   top:100;
 	   left:100;
 	   width: 100%;
@@ -88,7 +88,7 @@ body{
 	   margin-right: 0;
 	   margin-left: 0;
 	   background-size: cover;
-
+	   overflow:auto;
    }
 h1{
 	margin-bottom: 10px;
@@ -118,14 +118,15 @@ h4{margin: 0%}
 	height:100%;
 	width:100%;
 	float: left;
+	
 }
-*{box-sizing:border-box}
+*{box-sizing:border-box;}
 
 
 .A_login-html{
 	width:100%;
 	height:100%;
-	position:relative;
+	position: relative;
 	padding:90px 70px 50px 70px;
 	background:rgba(40,57,101,.9);
 	margin: auto;
@@ -148,11 +149,11 @@ h4{margin: 0%}
 	color:#fff;
 	border-color:#1161ee;
 }
-
 .A_login-form{
 	min-height:345px;
 	position:relative;
-	perspective:1000px;
+	position: relative;
+	
 }
 
 
@@ -241,12 +242,14 @@ a.A_member:hover, a.A_member:active {
 	height:2px;
 	margin:30px 0 50px 0;
 	background:rgba(255,255,255,.2);
+	
 }
 .A_foot-lnk{
 	text-align:center;
 	font-size: 15px;
+	
 }
-M_body {
+#M_body {
 	   background-color: #4F5051;
 	   margin-right: 0;
 	   padding-right: 0;
@@ -257,7 +260,7 @@ M_body {
 #M_main{	
 	   background-image: url("../Media/bg-01.jpg");
 	   background-repeat: no-repeat;
-		 box-shadow: #F98D03;
+	   box-shadow: #F98D03;
 	   position: fixed;
 	   top:100;
 	   left:100;
@@ -271,12 +274,12 @@ M_body {
 	   background-size: cover;
    }
 
-M_div.header {
+.M_divheader {
 	color:#F2F2F2;
 	text-align: center;
 }
 
-M_div.container {
+.M_divcontainer {
   width: 50%;
   text-align:center;
   margin-left: auto;
@@ -286,7 +289,7 @@ M_div.container {
   opacity: 0.8; 
 }
 
-M_input[type=text], select {
+#M_input[type=text], select {
   width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -296,7 +299,7 @@ M_input[type=text], select {
   box-sizing: border-box;
 }
 
-M_input[type=submit] {
+#M_input[type=submit] {
   width: 20%;
   background-color: black;
   color: white;
@@ -307,25 +310,17 @@ M_input[type=submit] {
   cursor: pointer;
 }
 
-M_input[type=submit]:hover {
+#M_input[type=submit]:hover {
   background-color: black;
 }
-M_body {
+#M_body {
 		background-color: #4F5051;
 	  margin-right: 0;
 	  padding-right: 0;
 	  margin-top: 0;
 	  margin-left: 0;
   	font-family: Arial;
-}
-  M_.topnav{
-	   overflow:hidden;
-	   background-color: #333;
-	   list-style: none;
-	   margin-right: 0;
-	   font-weight: bold;
-	   width:100%;
-   }
+}  
 #M_main{	
 	   background-image: url("../Media/postback.jpeg");
 	   background-repeat: no-repeat;
@@ -389,6 +384,8 @@ M_input[type=submit]:hover {
 #browsecontent{
 	margin-top:auto;
 	margin:auto;
+	margin-bottom: 5%;
+	position: relative;
 }
 #browsecontent h1{
 	color:white;
@@ -401,12 +398,13 @@ M_input[type=submit]:hover {
 	border-collapse: collapse;
 	color: white;
 	padding:15px;
+	
 }
 input[type=submit]{
 	border-radius: 2px;
 	border:none;
 	padding: 8px 8px 8px 8px;
-	background-color: black;
+	background-color: orangered;
 	color:white;
 	cursor: pointer;
 }
