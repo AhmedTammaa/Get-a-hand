@@ -8,6 +8,7 @@ body{
    }
    .topnav{
 	   overflow:hidden;
+	   position: relative; /* lama te3ml scroll hattl3 ma3 el page bas mafysh el heta el grey */
 	   background-color: #333;
 	   list-style: none;
 		 margin-right: 0;
