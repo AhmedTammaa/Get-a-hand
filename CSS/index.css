@@ -87,6 +87,7 @@ body{
 	margin-left: 0;
 	background-size: cover;
 	overflow:auto;
+	z-index: -1;
    }
 h1{margin-bottom: 10px;}
 .decribe{
@@ -116,7 +117,9 @@ h3{margin: 0%}
 	
 }
 *{box-sizing:border-box;}
-
+footer{
+	z-index: 1;
+}
 
 .A_login-html{
 	width:100%;
@@ -358,7 +361,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: black;
 }
-/Salim CSS/
 .backgroundimage{
     background-image: url("../Media/postback.jpeg");
     background-repeat: no-repeat;

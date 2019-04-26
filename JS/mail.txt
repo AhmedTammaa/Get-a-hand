@@ -1,0 +1,5 @@
+
+		var email = document.getElementById("send");
+	email.addEventListener(onclick,function(event){
+		window.open('mailto:ahmedtammaa101@hotmail.com.com?subject=succeed&body=you did it');
+	});
