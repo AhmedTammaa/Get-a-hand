@@ -1,7 +1,4 @@
-var email = document.getElementById("send");
-email.addEventListener(onclick,function(event){
-    window.open('mailto:ahmedtammaa101@hotmail.com.com?subject=succeed&body=you did it');
-});
+
 var n1 =[];
 var n2 =[];
 for (var i=0;i<25;i++){
