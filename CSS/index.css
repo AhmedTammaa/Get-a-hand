@@ -6,31 +6,63 @@ body{
 	   margin-top: 0;
 	   margin-left: 0;
    }
-   .topnav{
-	   overflow:hidden;
-	   background-color: #333;
-	   list-style: none;
-	   margin-right: 0;
-	   font-weight: bold;
-	   top: 0;
-	   width: 100%;
-   }
-   .topnav .active{
-	   background-color: #1161ee;
-   }
-   .topnav a{
-	   float:left;
-	   color:#F2F2F2;
-	   text-align: center;
-	   padding: 14px 16px;
-	   text-decoration: none;
-	   font-size: 17px;
-   }
-   .topnav a:hover{
-	   background-color: #F98D03;
-	   color:black;
-   }
-   
+	
+	.navB ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+	.navB li{
+		float: left;
+	}
+
+	.navB li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	.navB li a:hover, .dropdown:hover .dropbtn {
+		background-color: red;
+	}
+	.navB li.dropdown {
+		display: inline-block;
+		float:right;
+	}
+
+	.navB .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.navB .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.navB .dropdown-content a:hover{
+		background-color: #f1f1f1;
+	}
+
+	.navB .dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.navB .active{
+	 background-color: #1161ee;
+	}
+
    #main{	
 	   background-repeat: no-repeat;
 	   position: fixed;
@@ -137,7 +169,8 @@ footer{
 	
 
 .A_login-html .A_SIN,
-.A_login-html .A_SUP{
+.A_login-html .A_SUP,
+.A_login-html .A_FP{
 	font-size:22px;
 	margin-right:15px;
 	padding-bottom:5px;
@@ -150,7 +183,7 @@ footer{
 .A_login-form{
 	min-height:345px;
 	position:relative;
-	position: relative;
+	
 	
 }
 
@@ -361,24 +394,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: black;
 }
-.backgroundimage{
-    background-image: url("../Media/postback.jpeg");
-    background-repeat: no-repeat;
-    position: fixed;
-	top:100;
-	left:100;
-	width: 100%;
-	height:100%;
-	margin-bottom: 100;
-	margin-right: 0;
-	margin-left: 0;
-	background-size: cover;
-	overflow:auto;
-   }
 
-*{
-  box-sizing: border-box;
-}
 
 .S_row {
   display: -ms-flexbox; 
