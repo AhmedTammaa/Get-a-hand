@@ -1,4 +1,5 @@
 ﻿/* CSS Document */
+/*
 body{
 	  background-color: #4F5051;
 	   margin-right: 0;
@@ -6,7 +7,7 @@ body{
 	   margin-top: 0;
 	   margin-left: 0;
    }
-	
+	*/
 	.navB ul{
 		list-style-type: none;
 		margin: 0;
@@ -31,7 +32,7 @@ body{
 	}
 	.navB li.dropdown {
 		display: inline-block;
-		float:right;
+		float: right;
 	}
 
 	.navB .dropdown-content {
@@ -66,17 +67,12 @@ body{
    #main{	
 	   background-repeat: no-repeat;
 	   position: fixed;
-	   left:100;
-	   width: 100%;
-	   height:100%;
 	   margin-right: 0;
 	   margin-left: 0;
 	   background-size: cover;
    }
    .content{
-	   position: absolute;
-	   margin:auto;
-	   width: 100%;
+	   margin: auto;
 	   color: #F2F2F2;
 	   font-family: "alex-brush";
 	   font-style: italic;
@@ -84,11 +80,10 @@ body{
 	   text-align: center;
    }
    .content input[type=submit]{
-	width: 5%;
+	width: 10%;
 	background-color: limegreen;
 	color: white;
-	padding-left: auto;
-	padding-right:auto;
+	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: 8px 0;
@@ -106,29 +101,25 @@ body{
   		border-radius: 4px;
   		box-sizing: border-box;
 	}
-   .backgroundimage{
-    background-image: url("../Media/postback.jpeg");
-    background-repeat: no-repeat;
-    position: fixed;
-	top:100;
-	left:100;
-	width: 100%;
-	height:100%;
-	margin-bottom: 100;
-	margin-right: 0;
-	margin-left: 0;
-	background-size: cover;
-	overflow:auto;
-	z-index: -1;
-   }
+ 
+	 body{
+		background-image: url("../Media/postback.jpeg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		height: 100%;
+		margin:0;
+		overflow:auto;
+	 }
 h1{margin-bottom: 10px;}
 .decribe{
 	border-radius: 25px;
-  	border: 2px solid orange;
-  	padding: 10px; 
-  	width: 200px;
+  border: 2px solid orange;
+  padding: 10px; 
+  width: 200px;
 	color:white;
-	margin-top: 2%;
+	margin-top:2%;
+	float:left;
+
 }
 .decribe h1{
 	margin-top:0;
@@ -285,12 +276,12 @@ a.A_member:hover, a.A_member:active {
 #M_main{	
 	   background-image: url("../media/postback.jpeg");
 	   background-repeat: no-repeat;
-		box-shadow: #F98D03;
+		 box-shadow: 5px 10px #F98D03;
 	   position: fixed;
-	   top:100;
-	   left:100;
-	   padding-top: 100;
-	   padding-bottom: 100;
+	   top:100%;
+	   left:100%;
+	   padding-top: 100%;
+	   padding-bottom: 100%;
 	   width: 100%;
 	   height:100%;
 	   margin-bottom: 0;
@@ -341,12 +332,12 @@ input1[type=submit]:hover {
 #M_main2{	
 	   background-image: url("../media/postback.jpeg");
 	   background-repeat: no-repeat;
-		box-shadow: #F98D03;
+		 box-shadow: 5px 10px #F98D03;
 	   position: fixed;
-	   top:100;
-	   left:100;
-	   padding-top: 100;
-	   padding-bottom: 100;
+	   top:100%;
+	   left:100%;
+	   padding-top: 100%;
+	   padding-bottom: 100%;
 	   width: 100%;
 	   height:100%;
 	   margin-bottom: 0;
