@@ -1,13 +1,12 @@
 
-var n1 =[];
-var n2 =[];
-for (var i=0;i<25;i++){
+var n1 = [];
+var n2 = [];
+for (var i=0;i< 25;i++){
     n1[i] = "Project " + i;
 }
-for (var i=0;i<25;i++){
-    n2[i]= " Description" +i;
+for (var i=0;i< 25;i++){
+    n2[i] = " Description" +i;
 }
-//document.getElementById("browsecontent").innerHTML+= "<input type= " + '"Search"' + ' Placeholder="Search"> <\input>';
 document.getElementById("browsecontent").innerHTML+= '<table align="center" id="table"><tr><th>Project title</th><th>Project description</th><th>bid</th></tr><tr><th>Get A hand</th><th> Create an awesome looking website</th><th><input type="submit" value="bid now"></th></tr>';
 yes(n1,n2);
 function yes(theArray,theArray2){
@@ -36,7 +35,6 @@ input.addEventListener("keyup",function(event){
             if (i+1 == n1.length){
                 window.alert("Not found!");
             }
-                        
         }
     }
 });
