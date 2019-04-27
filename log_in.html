@@ -44,19 +44,19 @@
 			<form>
 			<div class="A_sign-in-htm">
 				<div class="A_group">
-					<label for="user" class="A_label" required>Username</label>
-					<input id="user" type="text" class="A_input">
+					<label for="user" class="A_label" >Username</label>
+					<input id="user" type="text" class="A_input" required>
 				</div>
 				<div class="A_group">
-					<label for="pass" class="A_label" required>Password</label>
-					<input id="pass" type="password" class="A_input" data-type="password">
+					<label for="pass" class="A_label" >Password</label>
+					<input id="pass" type="password" class="A_input" data-type="password" required>
 				</div>
 				<div class="A_group">
 					<input id="check" type="checkbox" class="A_check" checked>
 					<label for="check"><span class="A_icon"></span> Keep me Signed in</label>
 				</div>
 				<div class="A_group">
-					<input type="submit" class="A_button" value="Sign In">
+					<input type="submit" class="A_button" value="Sign In" onClick="myFunction()">
 				</div>
 				<div class="A_foot-lnk">
 						Did you <a class="A_member" href="Forgot_password.html">forget password?</a>
@@ -70,6 +70,10 @@
 		</div>
 	</div>
 	</div>
-	
+<script>
+		function myFunction() {
+  alert("You have succesfully signed in.");
+}
+</script>
 </body>
 </html>
